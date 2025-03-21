@@ -1,5 +1,5 @@
-#PaperCraft
-#Earthbarrier/paper-craft
+# PaperCraft
+## Earthbarrier/paper-craft
 Hi, we forked this from @allenai/pdf-components. It had some dependency conflicts so we updated the package.json. Simple surgery, all better.
 
 ## Pdf-component-library
