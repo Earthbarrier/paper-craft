@@ -1,4 +1,8 @@
-# Pdf-component-library
+#PaperCraft
+#Earthbarrier/paper-craft
+Hi, we forked this from @allenai/pdf-components. It had some dependency conflicts so we updated the package.json. Simple surgery, all better.
+
+## Pdf-component-library
 
 ## Overview
 The Pdf-Component-Library provides the means of displaying PDF’s in your React application with several built in reading features. It is built on top of the [React-PDF library](https://github.com/wojtekmaj/react-pdf/blob/main/packages/react-pdf/README.md), with some added components to help with creating an interactive reading experience. This library is built with research papers in mind, and aims at providing researchers with helpful tools to help their reading experience. It allowed us to create the [Semantic Reader](https://www.semanticscholar.org/product/semantic-reader) which you can demo [here](https://www.semanticscholar.org/reader/13497bd108d4412d02050e646235f456568cf822)
