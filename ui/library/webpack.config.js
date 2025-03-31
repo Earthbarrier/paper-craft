@@ -1,6 +1,6 @@
 const path = require('path');
 const MiniCssPlugin = require('mini-css-extract-plugin');
-const dtsBundle = require('dts-bundle');
+//const dtsBundle = require('dts-bundle');
 const RemovePlugin = require('remove-files-webpack-plugin');
 
 module.exports = (env, argv) => {
@@ -47,8 +47,8 @@ module.exports = (env, argv) => {
       }),
       new MiniCssPlugin({
         filename: `${fileName}.css`,
-      }),
-      new DtsBundlePlugin(packageName, './tmp/index.d.ts'),
+      })
+      // new DtsBundlePlugin(packageName, './tmp/index.d.ts'),
     ],
     target: 'web',
     output: {
@@ -80,7 +80,7 @@ module.exports = (env, argv) => {
   };
 };
 
-function DtsBundlePlugin(bundleName, indexPath) {
+/* function DtsBundlePlugin(bundleName, indexPath) {
   DtsBundlePlugin.prototype.apply = function (compiler) {
     compiler.hooks.afterEmit.tap('Bundle .d.ts files', compilation => {
       console.log(compilation.emittedAssets);
@@ -92,4 +92,4 @@ function DtsBundlePlugin(bundleName, indexPath) {
       }
     });
   };
-}
+} */

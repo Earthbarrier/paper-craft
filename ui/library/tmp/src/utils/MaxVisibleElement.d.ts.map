@@ -1,0 +1,1 @@
+{"version":3,"file":"MaxVisibleElement.d.ts","sourceRoot":"","sources":["../../../src/utils/MaxVisibleElement.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,2BAA2B,CAAC;AACrD,OAAO,EAAE,sBAAsB,EAAE,MAAM,0BAA0B,CAAC;AAElE,aAAK,cAAc,GAAG,QAAQ,CAAC,MAAM,GAAG,MAAM,CAAC,CAAC;AAEhD,wBAAgB,oBAAoB,CAClC,eAAe,EAAE,GAAG,CAAC,cAAc,EAAE,sBAAsB,CAAC,GAC3D,cAAc,CAUhB"}

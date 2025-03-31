@@ -1,0 +1,1 @@
+{"version":3,"file":"DownloadButton.d.ts","sourceRoot":"","sources":["../../../src/components/DownloadButton.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAE/B,oBAAY,KAAK,GAAG;IAClB,SAAS,CAAC,EAAE,MAAM,CAAC;IACnB,QAAQ,CAAC,EAAE,KAAK,CAAC,SAAS,CAAC;IAC3B,MAAM,EAAE,MAAM,CAAC;CAChB,CAAC;AAEF;;;GAGG;AACH,eAAO,MAAM,cAAc,EAAE,KAAK,CAAC,iBAAiB,CAAC,KAAK,CAkCzD,CAAC"}
